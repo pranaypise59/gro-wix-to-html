@@ -1,0 +1,110 @@
+<style>
+    .stepsContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .step{
+        position: relative;
+    }
+    .step::before {
+    content: '';
+    height: calc(100% - 20px);
+    width: 5px;
+    background: black;
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    z-index: -2;
+}
+    .right{
+        position: relative;
+    left: -125%;
+    top: -15px;
+    }
+    h2{
+        position: relative;
+    }
+    .right h2::after {
+    position: absolute;
+    content: '';
+    height: 5px;
+    margin-left: 13px;
+    width: 30%;
+    background: black;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -2;
+
+}
+    .left h2::after {
+ position: absolute;
+    content: '';
+    height: 5px;
+    margin-left: 13px;
+    width: 25%;
+    background: black;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -35%;
+    z-index: -2;
+}
+    .left{
+        position: relative;
+    left: 35%;
+    top: -15px;
+    }
+    .count::before {
+    position: absolute;
+    content: '1';
+    height: 35px;
+    width: 35px;
+    background: #fa854f;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    border: 2px solid;
+}
+</style>
+<div class="stepsContainer">
+    <div class="step">
+        <div class="count"></div>
+        <div class="right">
+            <h2>Simple & Quick Process</h2>
+            <p>User friendly device,<br>
+                only a single image capture. <br>
+                takes 5 mins or less</p>
+        </div>
+    </div>
+
+    <div class="step">
+        <div class="count"></div>
+        <div class="left">
+            <h2>Superior Data Accuracy</h2>
+            <p>A single image captures the entire scalp. <br>
+                20 time more hair data than any system. <br>
+                Drastically improve data accuracy.</p>
+        </div>
+    </div>
+    <div class="step">
+        <div class="count"></div>
+        <div class="right">
+            <h2>Simple & Quick Process</h2>
+            <p>User friendly device,<br>
+                only a single image capture. <br>
+                takes 5 mins or less</p>
+        </div>
+    </div>
+    <div class="step">
+        <div class="count"></div>
+        <div class="left">
+            <h2>Superior Data Accuracy</h2>
+            <p>A single image captures the entire scalp. <br>
+                20 time more hair data than any system. <br>
+                Drastically improve data accuracy.</p>
+        </div>
+    </div>
+</div>
