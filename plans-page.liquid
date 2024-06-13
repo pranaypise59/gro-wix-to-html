@@ -1,0 +1,618 @@
+{% schema %}
+{
+  "name": "Plans Page",
+  "settings": []
+}
+{% endschema %}
+<header class="groheader">
+  <img
+    src="{{ 'grologo2.png' | asset_url }}"
+    alt=""
+    style="object-fit:cover;object-position:50% 50%"
+    fetchpriority="high"
+    height="50px"
+  >
+  <div class="menu">
+    <a href="/">
+      <span>Learn</span>
+    </a>
+    <a href="/pages/plans">
+      <span style="color:#045AFF;">Plans</span>
+    </a>
+    <a href="/pages/contact">
+      <span>Contact Us</span>
+    </a>
+    <a
+      href="/pages/plans"
+      target="_self"
+      class="sec_button"
+      ><button class="sec_button_plan">Get Started</button></a
+    >
+  </div>
+</header>
+<section id="plans">
+  <div class="heading_container" style="margin-bottom:2rem;">
+    <h2 class="font_2 wixui-rich-text__text asthaticHeading">
+      <span class="wixui-rich-text__text"
+        >How Top Hair Growth Practices <br>
+        Build Patient Trust & WIN</span
+      >
+      <br>
+    </h2>
+    <h5 class="top_sub_heading">
+      AI-powered technology enables practitioners to deliver <br>
+      unmatched, data-driven hair growth treatment.
+    </h5>
+  </div>
+  <h2
+    class="font_2 wixui-rich-text__text smsubheadorange"
+    style="position: relative; margin-bottom: 0.7rem;font-size:2rem;"
+  >
+    <span class="wixui-rich-text__text">Top 500+ practices worldwide are using GroTrack!</span>
+  </h2>
+
+  <div class="trust_imagecontainer" style="margin-top: 5rem;">
+    <img
+      src="{{ 'Gro 2 camera back.webp' | asset_url }}"
+      alt=""
+      style="object-fit:cover;object-position:50% 50%"
+      loading="lazy"
+      class="img1"
+    >
+
+    <img
+      src="{{ 'camera face.webp' | asset_url }}"
+      alt=""
+      loading="lazy"
+      class="img2"
+    >
+    <img
+      src="{{ 'phone_trust.png' | asset_url }}"
+      alt=""
+      style="object-fit:cover;object-position:50% 50%"
+      loading="lazy"
+      class="img3"
+    >
+  </div>
+
+  <h2 class="font_2 wixui-rich-text__text subheadmoney">
+    <span class="wixui-rich-text__text">GroTrack System Set-up Fee</span>
+  </h2>
+
+  <div class="charges">
+    <h2 class="font_2 wixui-rich-text__text price"><span class="wixui-rich-text__text">$2,500</span></h2>
+    <h2 class="wixui-rich-text__text text"><span class="wixui-rich-text__text">one time fee</span></h2>
+  </div>
+
+  <div class="included">
+    <h2 class="font_2 wixui-rich-text__text smsubheadorange" style="text-align: left;">WHAT'S INCLUDED</h2>
+    <ul>
+      <li><span class="boldname">GroTrack software: </span>Full suite of cloud based GroTrack platform software.</li>
+      <li>
+        <span class="boldname">Device and software customization: </span>Customize your treatments, products, and
+        protocols on your GroTrack device for patient consultations, sales, and building your case library.
+      </li>
+      <li><span class="boldname">GroTrack device: </span>included (GroTrack device retail value: $7500).</li>
+    </ul>
+  </div>
+
+  <h2 class="font_2 wixui-rich-text__text subheadmoney" style="font-size:1.4rem !important">
+    <span class="wixui-rich-text__text">Select</span>
+  </h2>
+
+  <h2 class="font_2 wixui-rich-text__text subheadmoney" style="margin-top: 1.5rem;">
+    <span class="wixui-rich-text__text">Monthly Service Plan</span>
+  </h2>
+  <h2 class="top_sub_heading">month to month, cancel anytime</h2>
+
+  <div class="planContainer">
+    <div class="plan basic">
+      <div class="price">$39/month</div>
+      <div class="title">
+        Pay As Needed <br>
+        Image Analysis
+      </div>
+      <div class="subtext">
+        $20 hair analysis fee <br>
+        per patient visit
+      </div>
+      <ul class="bulletpoints">
+        <li>5GB cloud storage.</li>
+        <li>Software upgrades</li>
+        <li>AI assistant</li>
+        <li>Tech support</li>
+        <li>Device warranty​</li>
+      </ul>
+      <div class="plan-option">
+        <input type="radio" name="plan" id="basic">
+        <label for="basic">Select Plan</label>
+      </div>
+    </div>
+
+    <div class="plan premium">
+      <div class="price">$199/month</div>
+      <div class="title">
+        Unlimited <br>
+        Image Analysis
+      </div>
+      <div class="subtext">
+        Covers all patient visits <br>
+        and all hair analysis
+      </div>
+      <ul class="bulletpoints">
+        <li>Unlimited cloud storage.</li>
+        <li>Software upgrades</li>
+        <li>Unlimited AI assistant</li>
+        <li>Unlimited Tech support</li>
+        <li>Device warranty​</li>
+      </ul>
+      <div class="plan-option">
+        <input type="radio" name="plan" id="premium">
+        <label for="premium">Select Plan</label>
+      </div>
+    </div>
+  </div>
+
+  <a
+    data-testid="linkElement"
+    href="https://buy.stripe.com/aEU6s27ShalP5XifZ4"
+    target="_blank"
+    class="sec_button"
+    aria-disabled="false"
+    style="margin-bottom: 2rem;"
+    ><button class="sec_button_plan">Purchase GroTrack Now</button></a
+  >
+
+  <h2
+    class="font_2 wixui-rich-text__text smsubheadorange"
+    style="position: relative; margin-bottom: 0.7rem;font-size:2rem;"
+  >
+    <span class="wixui-rich-text__text">30 day money back garranty</span>
+  </h2>
+  <h2 class="top_sub_heading">
+    Return the GroTrack device within 30 days and <br>
+    you will receive a full refund of $2500
+  </h2>
+
+  <section id="faq">
+    <h2 class="font_2 wixui-rich-text__text smheading">
+      <span class="wixui-rich-text__text">Have questions about purchasing GroTrack?</span>
+    </h2>
+
+    <div
+      class="comp-lw8i2ov21 UHSxqn aibutton"
+      id="comp-lw8i2ov21"
+      role="button"
+      tabindex="0"
+      aria-disabled="false"
+    >
+      <div
+        data-testid="linkElement"
+        class="VU4Mnk wixui-button PlZyDq"
+        aria-disabled="false"
+      >
+        <span
+          class="w4Vxx6 wixui-button__label"
+          >Ask AI Assistant</span
+        >
+      </div>
+    </div>
+
+    <div class="flexbox">
+      <div
+        class="comp-lw8i2ov32-container AccordionContainer1266025101__container"
+        id="comp-lw8i2ov32"
+        style=" width: 85%;"
+      >
+        <ul
+          class="AccordionContainer1266025101__root style-lw8i2ov72__root wixui-accordion"
+          role="list"
+        >
+          <li
+            class="AccordionContainer1266025101__accordion wixui-accordion__item"
+          >
+            <div>
+              <button
+                class="AccordionContainerHeader936294312__root AccordionContainer1266025101__accordionHeader"
+                type="button"
+                id="a6f8ba3b-11f2-4b55-b2ac-8761a7b1860b"
+                aria-expanded="false"
+                aria-haspopup="true"
+              >
+                <span
+                  class="AccordionContainerHeaderLabel4008190829__root AccordionContainerHeader936294312__accordionLabel wixui-accordion__title"
+                  >Is GroTrack easy to use ?</span
+                ><span
+                  class="AccordionContainerHeaderIcon3990976808__root AccordionContainerHeader936294312__accordionIcon wixui-accordion__icon"
+                >
+                  <svg
+                    viewBox="0 0 16 11"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                        d="M0.191928 1.49603L1.47573 0.198644C1.53857 0.135675 1.61321 0.0857166 1.69539 0.0516304C1.77756 0.0175441 1.86565 0 1.95461 0C2.04357 0 2.13166 0.0175441 2.21383 0.0516304C2.296 0.0857166 2.37065 0.135675 2.43349 0.198644L7.99662 5.81612L13.5598 0.198644C13.6226 0.135675 13.6972 0.0857166 13.7794 0.0516304C13.8616 0.0175441 13.9497 0 14.0386 0C14.1276 0 14.2157 0.0175441 14.2979 0.0516304C14.38 0.0857166 14.4547 0.135675 14.5175 0.198644L15.8013 1.49603C16.0662 1.76094 16.0662 2.20246 15.8013 2.46737L8.4789 9.8713C8.41606 9.93427 8.34141 9.98423 8.25924 10.0183C8.17707 10.0524 8.08898 10.07 8.00002 10.07C7.91106 10.07 7.82297 10.0524 7.7408 10.0183C7.65863 9.98423 7.58398 9.93427 7.52114 9.8713L0.198722 2.46737C0.0713654 2.3378 0 2.16338 0 1.9817C0 1.80002 0.0713654 1.6256 0.198722 1.49603H0.191928Z">
+                    </path>
+                  </svg>
+                </span>
+              </button>
+            </div>
+            <div
+              class="AccordionContainer1266025101__animationBox"
+              aria-labelledby="a6f8ba3b-11f2-4b55-b2ac-8761a7b1860b"
+            >
+              <div
+                class="AccordionContainer1266025101__accordionContent AccordionContainer1266025101--isContentHidden wixui-accordion__container"
+              >
+                <div
+                  id="comp-lw8i2ovn2"
+                  class="comp-lw8i2ovn2-container comp-lw8i2ovn2"
+                >
+                  <div
+                    id="comp-lw8i2ovo"
+                    class="HcOXKn c9GqVL QxJLC3 comp-lw8i2ovo wixui-rich-text"
+                    data-testid="richTextElement"
+                  >
+                    <p class="font_8 wixui-rich-text__text">
+                      <span
+                        class="wixui-rich-text__text"
+                        >GroTrack system is design for easy, quick routine use for your hair loss
+                        treatment.&nbsp;It&nbsp;requires minimum training. Typically, you only need to take one
+                        image.&nbsp;The whole process takes 5 mins or less.<span
+                          style="letter-spacing:0em;"
+                          class="wixui-rich-text__text"
+                          >.</span
+                        ></span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li
+            class="AccordionContainer1266025101__accordion wixui-accordion__item"
+          >
+            <div>
+              <button
+                class="AccordionContainerHeader936294312__root AccordionContainer1266025101__accordionHeader"
+                type="button"
+                id="938ccc52-2ec0-437f-8bab-ebd2efbf96a0"
+                aria-expanded="false"
+                aria-haspopup="true"
+              >
+                <span
+                  class="AccordionContainerHeaderLabel4008190829__root AccordionContainerHeader936294312__accordionLabel wixui-accordion__title"
+                  >Do you provide training and support?</span
+                ><span
+                  class="AccordionContainerHeaderIcon3990976808__root AccordionContainerHeader936294312__accordionIcon wixui-accordion__icon"
+                >
+                  <svg
+                    viewBox="0 0 16 11"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                        d="M0.191928 1.49603L1.47573 0.198644C1.53857 0.135675 1.61321 0.0857166 1.69539 0.0516304C1.77756 0.0175441 1.86565 0 1.95461 0C2.04357 0 2.13166 0.0175441 2.21383 0.0516304C2.296 0.0857166 2.37065 0.135675 2.43349 0.198644L7.99662 5.81612L13.5598 0.198644C13.6226 0.135675 13.6972 0.0857166 13.7794 0.0516304C13.8616 0.0175441 13.9497 0 14.0386 0C14.1276 0 14.2157 0.0175441 14.2979 0.0516304C14.38 0.0857166 14.4547 0.135675 14.5175 0.198644L15.8013 1.49603C16.0662 1.76094 16.0662 2.20246 15.8013 2.46737L8.4789 9.8713C8.41606 9.93427 8.34141 9.98423 8.25924 10.0183C8.17707 10.0524 8.08898 10.07 8.00002 10.07C7.91106 10.07 7.82297 10.0524 7.7408 10.0183C7.65863 9.98423 7.58398 9.93427 7.52114 9.8713L0.198722 2.46737C0.0713654 2.3378 0 2.16338 0 1.9817C0 1.80002 0.0713654 1.6256 0.198722 1.49603H0.191928Z">
+                    </path>
+                  </svg>
+                </span>
+              </button>
+            </div>
+            <div
+              class="AccordionContainer1266025101__animationBox"
+              aria-labelledby="938ccc52-2ec0-437f-8bab-ebd2efbf96a0"
+            >
+              <div
+                class="AccordionContainer1266025101__accordionContent AccordionContainer1266025101--isContentHidden wixui-accordion__container"
+              >
+                <div
+                  id="comp-lw8i2ovg7"
+                  class="comp-lw8i2ovg7-container comp-lw8i2ovg7"
+                >
+                  <div
+                    id="comp-lw8i2ovh5"
+                    class="HcOXKn c9GqVL QxJLC3 comp-lw8i2ovh5 wixui-rich-text"
+                    data-testid="richTextElement"
+                  >
+                    <p class="font_8 wixui-rich-text__text">
+                      <span class="wixui-rich-text__text"
+                        >You will be able to access our AI&nbsp;trainer&nbsp;on your Grotrack device</span
+                      >
+                    </p>
+
+                    <p class="font_8 wixui-rich-text__text">
+                      <span class="wixui-rich-text__text"
+                        >or GroTrack web appliction 24/7. Our AI&nbsp;trainer will walk you through the entire</span
+                      >
+                    </p>
+
+                    <p class="font_8 wixui-rich-text__text">
+                      <span
+                        class="wixui-rich-text__text"
+                        >process on how to take hair images and how to use the software.&nbsp;</span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li
+            class="AccordionContainer1266025101__accordion wixui-accordion__item"
+          >
+            <div>
+              <button
+                class="AccordionContainerHeader936294312__root AccordionContainer1266025101__accordionHeader"
+                type="button"
+                id="item1"
+                aria-expanded="false"
+                aria-haspopup="true"
+              >
+                <span
+                  class="AccordionContainerHeaderLabel4008190829__root AccordionContainerHeader936294312__accordionLabel wixui-accordion__title"
+                  >Can I use the software on multiple computers?</span
+                ><span
+                  class="AccordionContainerHeaderIcon3990976808__root AccordionContainerHeader936294312__accordionIcon wixui-accordion__icon"
+                >
+                  <svg
+                    viewBox="0 0 16 11"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                        d="M0.191928 1.49603L1.47573 0.198644C1.53857 0.135675 1.61321 0.0857166 1.69539 0.0516304C1.77756 0.0175441 1.86565 0 1.95461 0C2.04357 0 2.13166 0.0175441 2.21383 0.0516304C2.296 0.0857166 2.37065 0.135675 2.43349 0.198644L7.99662 5.81612L13.5598 0.198644C13.6226 0.135675 13.6972 0.0857166 13.7794 0.0516304C13.8616 0.0175441 13.9497 0 14.0386 0C14.1276 0 14.2157 0.0175441 14.2979 0.0516304C14.38 0.0857166 14.4547 0.135675 14.5175 0.198644L15.8013 1.49603C16.0662 1.76094 16.0662 2.20246 15.8013 2.46737L8.4789 9.8713C8.41606 9.93427 8.34141 9.98423 8.25924 10.0183C8.17707 10.0524 8.08898 10.07 8.00002 10.07C7.91106 10.07 7.82297 10.0524 7.7408 10.0183C7.65863 9.98423 7.58398 9.93427 7.52114 9.8713L0.198722 2.46737C0.0713654 2.3378 0 2.16338 0 1.9817C0 1.80002 0.0713654 1.6256 0.198722 1.49603H0.191928Z">
+                    </path>
+                  </svg>
+                </span>
+              </button>
+            </div>
+            <div
+              class="AccordionContainer1266025101__animationBox"
+              aria-labelledby="item1"
+            >
+              <div
+                class="AccordionContainer1266025101__accordionContent AccordionContainer1266025101--isContentHidden wixui-accordion__container"
+              >
+                <div
+                  id="comp-lw8i2ov8"
+                  class="comp-lw8i2ov8-container comp-lw8i2ov8"
+                >
+                  <div
+                    id="comp-lw8i2ova3"
+                    class="HcOXKn c9GqVL QxJLC3 comp-lw8i2ova3 wixui-rich-text"
+                    data-testid="richTextElement"
+                  >
+                    <p
+                      class="font_8 wixui-rich-text__text"
+                      style="text-align:right;"
+                    >
+                      <span
+                        class="wixui-rich-text__text"
+                        >Yes. GroTrack system&nbsp;is web based.&nbsp;You can access the GroTrack
+                      </span>
+                    </p>
+
+                    <p
+                      class="font_8 wixui-rich-text__text"
+                      style="text-align:right;"
+                    >
+                      <span
+                        class="wixui-rich-text__text"
+                        >software application &nbsp;on any device with&nbsp;internet connection .</span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li
+            class="AccordionContainer1266025101__accordion wixui-accordion__item"
+          >
+            <div>
+              <button
+                class="AccordionContainerHeader936294312__root AccordionContainer1266025101__accordionHeader"
+                type="button"
+                id="8fd196c8-14f6-4364-909b-791aa9c9a190"
+                aria-expanded="false"
+                aria-haspopup="true"
+              >
+                <span
+                  class="AccordionContainerHeaderLabel4008190829__root AccordionContainerHeader936294312__accordionLabel wixui-accordion__title"
+                  >What types hair data does GroTrack provide?</span
+                ><span
+                  class="AccordionContainerHeaderIcon3990976808__root AccordionContainerHeader936294312__accordionIcon wixui-accordion__icon"
+                >
+                  <svg
+                    viewBox="0 0 16 11"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                        d="M0.191928 1.49603L1.47573 0.198644C1.53857 0.135675 1.61321 0.0857166 1.69539 0.0516304C1.77756 0.0175441 1.86565 0 1.95461 0C2.04357 0 2.13166 0.0175441 2.21383 0.0516304C2.296 0.0857166 2.37065 0.135675 2.43349 0.198644L7.99662 5.81612L13.5598 0.198644C13.6226 0.135675 13.6972 0.0857166 13.7794 0.0516304C13.8616 0.0175441 13.9497 0 14.0386 0C14.1276 0 14.2157 0.0175441 14.2979 0.0516304C14.38 0.0857166 14.4547 0.135675 14.5175 0.198644L15.8013 1.49603C16.0662 1.76094 16.0662 2.20246 15.8013 2.46737L8.4789 9.8713C8.41606 9.93427 8.34141 9.98423 8.25924 10.0183C8.17707 10.0524 8.08898 10.07 8.00002 10.07C7.91106 10.07 7.82297 10.0524 7.7408 10.0183C7.65863 9.98423 7.58398 9.93427 7.52114 9.8713L0.198722 2.46737C0.0713654 2.3378 0 2.16338 0 1.9817C0 1.80002 0.0713654 1.6256 0.198722 1.49603H0.191928Z">
+                    </path>
+                  </svg>
+                </span>
+              </button>
+            </div>
+            <div
+              class="AccordionContainer1266025101__animationBox"
+              aria-labelledby="8fd196c8-14f6-4364-909b-791aa9c9a190"
+            >
+              <div
+                class="AccordionContainer1266025101__accordionContent AccordionContainer1266025101--isContentHidden wixui-accordion__container"
+              >
+                <div
+                  id="comp-lw8i2ovc1"
+                  class="comp-lw8i2ovc1-container comp-lw8i2ovc1"
+                >
+                  <div
+                    id="comp-lw8i2ovd"
+                    class="HcOXKn c9GqVL QxJLC3 comp-lw8i2ovd wixui-rich-text"
+                    data-testid="richTextElement"
+                  >
+                    <p class="font_8 wixui-rich-text__text">
+                      <span
+                        class="wixui-rich-text__text"
+                        >GroTrack provides &nbsp;hair mass (hair volume) data, hair density data&nbsp;</span
+                      >
+                    </p>
+
+                    <p class="font_8 wixui-rich-text__text">
+                      <span class="wixui-rich-text__text"
+                        >and hair thickness data&nbsp;to &nbsp;assess&nbsp;thinning hair condition and</span
+                      >
+                    </p>
+
+                    <p class="font_8 wixui-rich-text__text">
+                      <span class="wixui-rich-text__text"
+                        >to track hair growth from the global &nbsp;image&nbsp;and close up image</span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li
+            class="AccordionContainer1266025101__accordion wixui-accordion__item"
+          >
+            <div>
+              <button
+                class="AccordionContainerHeader936294312__root AccordionContainer1266025101__accordionHeader"
+                type="button"
+                id="6efc9c3e-6bbe-47a2-85b8-9b9dc6d95f5f"
+                aria-expanded="false"
+                aria-haspopup="true"
+              >
+                <span
+                  class="AccordionContainerHeaderLabel4008190829__root AccordionContainerHeader936294312__accordionLabel wixui-accordion__title"
+                  >Can you integrate GroTrack data with my EMI?</span
+                ><span
+                  class="AccordionContainerHeaderIcon3990976808__root AccordionContainerHeader936294312__accordionIcon wixui-accordion__icon"
+                >
+                  <svg
+                    viewBox="0 0 16 11"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                        d="M0.191928 1.49603L1.47573 0.198644C1.53857 0.135675 1.61321 0.0857166 1.69539 0.0516304C1.77756 0.0175441 1.86565 0 1.95461 0C2.04357 0 2.13166 0.0175441 2.21383 0.0516304C2.296 0.0857166 2.37065 0.135675 2.43349 0.198644L7.99662 5.81612L13.5598 0.198644C13.6226 0.135675 13.6972 0.0857166 13.7794 0.0516304C13.8616 0.0175441 13.9497 0 14.0386 0C14.1276 0 14.2157 0.0175441 14.2979 0.0516304C14.38 0.0857166 14.4547 0.135675 14.5175 0.198644L15.8013 1.49603C16.0662 1.76094 16.0662 2.20246 15.8013 2.46737L8.4789 9.8713C8.41606 9.93427 8.34141 9.98423 8.25924 10.0183C8.17707 10.0524 8.08898 10.07 8.00002 10.07C7.91106 10.07 7.82297 10.0524 7.7408 10.0183C7.65863 9.98423 7.58398 9.93427 7.52114 9.8713L0.198722 2.46737C0.0713654 2.3378 0 2.16338 0 1.9817C0 1.80002 0.0713654 1.6256 0.198722 1.49603H0.191928Z">
+                    </path>
+                  </svg>
+                </span>
+              </button>
+            </div>
+            <div
+              class="AccordionContainer1266025101__animationBox"
+              aria-labelledby="6efc9c3e-6bbe-47a2-85b8-9b9dc6d95f5f"
+            >
+              <div
+                class="AccordionContainer1266025101__accordionContent AccordionContainer1266025101--isContentHidden wixui-accordion__container"
+              >
+                <div
+                  id="comp-lw8i2ovi8"
+                  class="comp-lw8i2ovi8-container comp-lw8i2ovi8"
+                >
+                  <div
+                    id="comp-lw8i2ovk"
+                    class="HcOXKn c9GqVL QxJLC3 comp-lw8i2ovk wixui-rich-text"
+                    data-testid="richTextElement"
+                  >
+                    <p class="font_8 wixui-rich-text__text">
+                      <span class="wixui-rich-text__text"
+                        >We offer data integration &nbsp;service to&nbsp;integrate GroTrack hair data with your&nbsp;EMI
+                        system as&nbsp;long as we can have the API from your EMI software vendor.</span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li
+            class="AccordionContainer1266025101__accordion wixui-accordion__item"
+          >
+            <div>
+              <button
+                class="AccordionContainerHeader936294312__root AccordionContainer1266025101__accordionHeader"
+                type="button"
+                id="47095840-79dd-4bbb-b514-457078023069"
+                aria-expanded="false"
+                aria-haspopup="true"
+              >
+                <span
+                  class="AccordionContainerHeaderLabel4008190829__root AccordionContainerHeader936294312__accordionLabel wixui-accordion__title"
+                  >What is the cost for GroTrack?</span
+                ><span
+                  class="AccordionContainerHeaderIcon3990976808__root AccordionContainerHeader936294312__accordionIcon wixui-accordion__icon"
+                >
+                  <svg
+                    viewBox="0 0 16 11"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                        d="M0.191928 1.49603L1.47573 0.198644C1.53857 0.135675 1.61321 0.0857166 1.69539 0.0516304C1.77756 0.0175441 1.86565 0 1.95461 0C2.04357 0 2.13166 0.0175441 2.21383 0.0516304C2.296 0.0857166 2.37065 0.135675 2.43349 0.198644L7.99662 5.81612L13.5598 0.198644C13.6226 0.135675 13.6972 0.0857166 13.7794 0.0516304C13.8616 0.0175441 13.9497 0 14.0386 0C14.1276 0 14.2157 0.0175441 14.2979 0.0516304C14.38 0.0857166 14.4547 0.135675 14.5175 0.198644L15.8013 1.49603C16.0662 1.76094 16.0662 2.20246 15.8013 2.46737L8.4789 9.8713C8.41606 9.93427 8.34141 9.98423 8.25924 10.0183C8.17707 10.0524 8.08898 10.07 8.00002 10.07C7.91106 10.07 7.82297 10.0524 7.7408 10.0183C7.65863 9.98423 7.58398 9.93427 7.52114 9.8713L0.198722 2.46737C0.0713654 2.3378 0 2.16338 0 1.9817C0 1.80002 0.0713654 1.6256 0.198722 1.49603H0.191928Z">
+                    </path>
+                  </svg>
+                </span>
+              </button>
+            </div>
+            <div
+              class="AccordionContainer1266025101__animationBox"
+              aria-labelledby="47095840-79dd-4bbb-b514-457078023069"
+            >
+              <div
+                class="AccordionContainer1266025101__accordionContent AccordionContainer1266025101--isContentHidden wixui-accordion__container"
+              >
+                <div
+                  id="comp-lw8i2ove5"
+                  class="comp-lw8i2ove5-container comp-lw8i2ove5"
+                >
+                  <div
+                    id="comp-lw8i2ovf5"
+                    class="HcOXKn c9GqVL QxJLC3 comp-lw8i2ovf5 wixui-rich-text"
+                    data-testid="richTextElement"
+                  >
+                    <p class="font_8 wixui-rich-text__text">
+                      <span
+                        class="wixui-rich-text__text"
+                        >Scroll down and Click on &quot;get Grotrack now&quot; and you will&nbsp;</span
+                      >
+                    </p>
+
+                    <p class="font_8 wixui-rich-text__text">
+                      <span class="wixui-rich-text__text">see the GroTrack purchase information.</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <img
+        src="{{ 'AI assistant.webp' | asset_url }}"
+        alt=""
+        style="object-fit:cover;object-position:50% 50%"
+        loading="lazy"
+        class="assistantimg"
+      >
+    </div>
+  </section>
+
+  <a
+    data-testid="linkElement"
+    href="https://buy.stripe.com/aEU6s27ShalP5XifZ4"
+    target="_blank"
+    class="sec_button"
+    aria-disabled="false"
+    style="margin-bottom: 2rem;"
+    ><button class="sec_button_plan">Purchase GroTrack Now</button></a
+  >
+  <footer>
+    <p class="font_9 wixui-rich-text__text">
+      <span
+        class="wixui-rich-text__text"
+        >&copy; 2024&nbsp;by GRO technologies, all&nbsp;rights reserved</span
+      >
+    </p>
+  </footer>
+</section>
